@@ -1,0 +1,36 @@
+{
+  "name": "t-parrot",
+  "version": "1.0.0",
+  "description": "One guild bot",
+  "main": "bot.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.0.1",
+    "canvas": "^2.4.1",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.6.4",
+    "express": "^4.16.4",
+    "fs": "^0.0.2",
+    "google": "^2.1.0",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.5.0",
+    "node-gyp": "^3.8.0",
+    "nodemon": "^1.18.10",
+    "pg": "latest",
+    "querystring": "^0.2.0",
+    "randomstring": "^1.1.5",
+    "snekfetch": "^4.0.4",
+    "node-opus": "^0.3.3",
+    "ytdl-core": "^0.29.2",
+    "common-tags": "^1.8.0",
+    "humanize-duration": "^3.23.0"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Parrot",
+  "license": "ISC"
+}
