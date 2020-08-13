@@ -288,4 +288,4 @@ const createCooldownEmbed = (timeRemaining) => {
   return embed;
 }
 
-bot.login(process.env.TOKEN);
+bot.login("NDU0MjgyMzk1Nzg1NDk0NTM4.Wxk5cw.xwXdRONfTQRf2dLq_5b9xoshrzA");
