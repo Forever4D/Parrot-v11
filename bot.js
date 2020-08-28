@@ -215,6 +215,7 @@ bot.on("messageDelete", async msg => {
 
 bot.on("message", async message => {
   if (message.author.bot) return;
+  if (message.author.id === "747564106323853404") return; 
 
   if (message.isMentioned(bot.user)) {
     message.channel.send(`Prefix `+"``p!``"+` | type p!help to view list of all commands!`);
